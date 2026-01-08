@@ -1,0 +1,9 @@
+*
+!/core
+!/frontend
+!/modules
+!/LICENSE
+!/package.json
+!/package-lock.json
+!/tsconfig.json
+*/node_modules

@@ -263,7 +263,7 @@ function bye(error) {
 		connection.destroy();
 	}
 	modules.down();
-	process.exitCode = 0;
+	process.exit(1);
 }
 
 process.on('exit', code => console.log(`exiting with code ${code}`));
