@@ -198,7 +198,7 @@ export interface ToaduaConfig {
 			backup_interval: number;
 		};
 		'modules/housekeep.js'?: Record<string, never>;
-		'modules/update.js'?: { enabled: boolean; save_interval: number };
+		'modules/update.js'?: { enabled: boolean; update_interval: number };
 		'modules/cleanup.js'?: {
 			enabled: boolean;
 			vote_threshold: number;

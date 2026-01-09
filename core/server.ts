@@ -218,7 +218,7 @@ class ToaduaModules {
 		if (updateConfig) {
 			this.update = new UpdateModule(
 				updateConfig.enabled,
-				updateConfig.save_interval,
+				updateConfig.update_interval,
 				this.announce,
 			);
 		}
